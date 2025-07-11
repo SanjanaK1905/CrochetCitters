@@ -1,13 +1,14 @@
 import './App.css'
 import MenuBar from './components/MenuBar'
+import HomeScreen from './screens/HomeScreen'
 
 function App() {
 
   return (
     <div className="app-wrapper">
       <MenuBar/>
+      <HomeScreen/>
       <p className="extra-content">
-        Click on the Vite and React logos to learn more
       </p>
     </div>
   )
