@@ -1,41 +1,54 @@
 import './PatternScreen.css'
-import ChainPattern from '../assets/ChainPattern.png'
 import PatternContent from '../components/PatternContent'
+import {chainPattern, halfCrochet, doubleCrochet,trebleCrochet, slipStitch,shellStitch} from '../constants/constants'
+
 
 function PatternScreen() {
 
-    const chainPattern1 = {
-        imageSrc: ChainPattern,
-        patternContentTitle: 'Chain Pattern 1',
-        patternContentDescription: 'This is the chain pattern 1. It looks on mr po.'
-    }
-
-    const chainPattern2 = {
-        imageSrc: ChainPattern,
-        patternContentTitle: 'Chain Pattern 2',
-        patternContentDescription: 'This is the chain pattern 2. it looks on wumperamongus'
-    }
-
     return (
         <div className="pattern_screen ">
-            <div className = "pattern_title_container">
+            <div className="pattern_title_container">
                 <h2 className="pattern_title">Patterns</h2>
             </div>
             <div className="pattern_parent_content_container">
-                <PatternContent 
-                    imageSrc={chainPattern1.imageSrc} 
-                    patternContentTitle={chainPattern1.patternContentTitle} 
-                    patternContentDescription={chainPattern1.patternContentDescription}
+                <PatternContent
+                    imageSrc={chainPattern.imageSrc}
+                    patternContentTitle={chainPattern.patternContentTitle}
+                    patternContentDescription={chainPattern.patternContentDescription}
                 />
                 <PatternContent
-                    imageSrc={chainPattern2.imageSrc} 
-                    patternContentTitle={chainPattern2.patternContentTitle} 
-                    patternContentDescription={chainPattern2.patternContentDescription}
+                    imageSrc={halfCrochet.imageSrc}
+                    patternContentTitle={halfCrochet.patternContentTitle}
+                    patternContentDescription={halfCrochet.patternContentDescription}
                 />
-             </div>
-         </div>
+            </div>
+            <div className="pattern_parent_content_container">
+                <PatternContent
+                    imageSrc={doubleCrochet.imageSrc}
+                    patternContentTitle={doubleCrochet.patternContentTitle}
+                    patternContentDescription={doubleCrochet.patternContentDescription}
+                />
+                <PatternContent
+                    imageSrc={trebleCrochet.imageSrc}
+                    patternContentTitle={trebleCrochet.patternContentTitle}
+                    patternContentDescription={trebleCrochet.patternContentDescription}
+                />
+            </div>
+             <div className="pattern_parent_content_container">
+                <PatternContent
+                    imageSrc={slipStitch.imageSrc}
+                    patternContentTitle={slipStitch.patternContentTitle}
+                    patternContentDescription={slipStitch.patternContentDescription}
+                />
+                <PatternContent
+                    imageSrc={shellStitch.imageSrc}
+                    patternContentTitle={shellStitch.patternContentTitle}
+                    patternContentDescription={shellStitch.patternContentDescription}
+                />
+            </div>
+        </div>
 
-           
+
     )
 }
 export default PatternScreen

@@ -1,5 +1,4 @@
 import './PatternContent.css'
-import ChainPattern from '../assets/ChainPattern.png'
 
 type PatternContentProps = {
     imageSrc: string;
