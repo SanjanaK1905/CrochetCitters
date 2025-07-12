@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import{Link} from 'react-router-dom'
 import './MenuBar.css'
 
 function MenuBar() {
@@ -6,19 +7,19 @@ function MenuBar() {
 
   return (
     <div className="navbar_container">
-         <a href="/" id="navbar_logo">CROCHET CLUB</a> 
+        <a href="/" id="navbar_logo">CROCHET CLUB</a> 
         <ul className = "navbar_menu">
             <li className = "navbar_item">
-                <a href="/" className="navbar_links"> Home </a>
+                <Link to="/" className="navbar_links"> Home </Link>
             </li>
             <li className = "navbar_item">
-                <a href="/tech.html" className="navbar_links"> Tech </a>
+                <Link to="/tech" className="navbar_links"> Patterns </Link>
             </li>
             <li className = "navbar_item">
-                <a href="/" className="navbar_links"> Products </a>
+                <Link to="/" className="navbar_links"> Products </Link>
             </li>
             <li className = "navbar_btn">
-                <a href="/" className="button"> Sign Up </a>
+                <Link to="/" className="button"> Sign Up </Link>
             </li>
         </ul>
     </div>
