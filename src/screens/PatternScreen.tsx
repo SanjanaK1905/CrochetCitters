@@ -1,6 +1,6 @@
 import './PatternScreen.css'
 import PatternContent from '../components/PatternContent'
-import {chainPattern, halfCrochet, doubleCrochet,trebleCrochet, slipStitch,shellStitch} from '../constants/constants'
+import {chainPattern, halfCrochet, doubleCrochet,trebleCrochet, slipStitch,shellStitch,singleStitch,newVStitch} from '../constants/constants'
 
 
 function PatternScreen() {
@@ -46,6 +46,18 @@ function PatternScreen() {
                     patternContentDescription={shellStitch.patternContentDescription}
                 />
             </div>
+             <div className="pattern_parent_content_container">
+            <PatternContent
+                    imageSrc={singleStitch.imageSrc}
+                    patternContentTitle={singleStitch.patternContentTitle}
+                    patternContentDescription={singleStitch.patternContentDescription}
+                />
+                <PatternContent
+                    imageSrc={newVStitch.imageSrc}
+                    patternContentTitle={newVStitch.patternContentTitle}
+                    patternContentDescription={newVStitch.patternContentDescription}
+                />
+        </div>
         </div>
 
 
