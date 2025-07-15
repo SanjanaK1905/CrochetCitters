@@ -1,0 +1,35 @@
+.product_content_container {
+  display: flex;
+  flex-direction: row; 
+  align-items: stretch;
+  padding: 50px;
+  background-color: #f5f5f5;
+}
+
+.product_image {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin-right: 10px;
+}
+
+.product_description_container {
+    flex-direction: column; 
+    width:300px;
+    height:auto;
+    display:flex;
+    align-items: center;
+    padding-top: 10px;
+    border-radius: 8px;
+}
+
+.product_description_text {
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.product_description_container p {
+    text-align: center;
+}

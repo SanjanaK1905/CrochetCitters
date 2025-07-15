@@ -1,0 +1,30 @@
+.product_screen {
+  display: flex;
+  flex-direction: column; 
+  padding: 50px;
+  background-color: #f5f5f5;
+}
+
+.product_title_container {
+  margin-bottom: 40px;
+  width: '100%';
+}
+
+.product_title {
+  margin:0;
+  font-size:3rem;
+  background-color: #131313;
+  background-image: linear-gradient(to top, #00FA9A 0%, #483D8b  100%);
+  background-size: 100%;
+  -webkit-background-clip:text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-colot: transparent;
+  text-align: center;
+}
+
+.product_parent_content_container {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}

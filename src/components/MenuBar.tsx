@@ -3,7 +3,7 @@ import{Link} from 'react-router-dom'
 import './MenuBar.css'
 
 function MenuBar() {
-  const [count, setCount] = useState(0)
+  /*const [count, setCount] = useState(0)*/
 
   return (
     <div className="navbar_container">
@@ -16,7 +16,7 @@ function MenuBar() {
                 <Link to="/tech" className="navbar_links"> Patterns </Link>
             </li>
             <li className = "navbar_item">
-                <Link to="/" className="navbar_links"> Products </Link>
+                <Link to="/products" className="navbar_links"> Product </Link>
             </li>
             <li className = "navbar_btn">
                 <Link to="/" className="button"> Sign Up </Link>
