@@ -13,40 +13,35 @@ import Cardign from '../assets/Cardign.png'
 export const bookMarkPattern = {
     imageSrc: BookMark,
     productContentTitle: 'BookMarks',
-    productContentDescription: 'This is the foundation crochet stitch. It looks like a braid and'
-    + 'creates a base for the next stiches It is best stitch to learn for beginners. This stitch you make a loop with your yarn.' 
-    + 'Then you insert the hook into the loop. Lastly pull the yarn through to tighten a knot around the hook'
-    + '(not too tight—your hook should move easily). '
+    productContentDescription: 'This is item is very simple and one of the easiet crochet projects to stat with. '
+    + 'You only need basic stitches like chain stitch or single crochet. Also, you only need small amount of material to create a flat, pretty'
+    + ' design in under 30 mins.'
  
 }
 
 export const CoastersCrochet = {
     imageSrc: Coasters,
     productContentTitle: 'Coasters',
-    productContentDescription: 'This is a basic crochet stitch that is taller than a single crochet but shorter than a double crochet.'
-    + 'It is supposed be slighly looser and stretchier than single crochet but still dense enough.'
-    + 'To make a half crochet you have to yarn over once. Then insert hook into the stitch or space where'
-    + 'you want to place the stitch. Yarn over again and pull through the stitch. At this point you should have three loops'
-    + 'on your hook. Lastly you yarn over once more and pull through all three loops on the hook.'
+    productContentDescription: 'This is item is simple to make but it is more difficult than the bookmark. Usually if the shape is a square it'
+    + ' can be more easier to make than a circle coaster. You can make coaster generally in 40 mins but it also depends on which design you are making with.' 
+    +  'The stitch is the basic like chain and double crochet. This project is great when you have leftover yarn.'
 }
 
 
 export const ToteCrochet = {
     imageSrc: ToteBag,
     productContentTitle: 'Tote Bag',
-    productContentDescription: 'This is the most common used stitches in crochet. It creates a more open and flexible fabric. To make double crochet'
-    + 'you need to yarn over once, then insert your hook into the stitch. Then yarn over again and pull though.'
-    + 'At this point you will need to 3 loops on your hook. Yarn over and pull through the first 2 loops(now you have 2 loops on your hook)'
-    + 'Lastly yarn over again and pull through the remaining 2 loops.'
+    productContentDescription: 'This project is perfect for beginners and experienced crocheters alike. A tote bag can be made many ways.'
+    + 'For example, you can make a solid stitch, mesh tote bag, granny square tote bag, and much more. Tote bag can take more time because there many parts to complete.'
+    + 'This item is great gift because it can reused and there is so many ways to make it.'
 }
 
 export const BlanketImg = {
     imageSrc: Blanket,
     productContentTitle: 'Blanket',
-    productContentDescription: 'This is tall stitch that creates a very open and airy fabric. To make a treble crochet you need to'
-    + 'yarn over twice, then insert your hook into the stitch or space. Then yarn over and pull through the stitch'
-    + 'At this point you should have 4 loops on your hook. Then yarn over, pull through the first 2 loops(3 loops remain).'
-    + 'Then yarn over, and pull throigh the next 2 loops(2 loops remain). Finally yarn over, and pull through the final 2 loops.'
+    productContentDescription: 'This item can be a large project depending on how many rows and columns you are doing.'
+    + 'This is the most rewarding project because it useful and hand made. There is different types of ways to make a blanket.'
+    + ' You can do it through gran square, corner to corner, shell stitch, and much more.'
 
 }
 
@@ -54,8 +49,9 @@ export const BlanketImg = {
 export const keyChain = {
     imageSrc: KeyChain,
     productContentTitle: 'Key Chains',
-    productContentDescription: 'This is the shortest and simplest stitch. It mainly used to join rounds, move the yarn across stitches without adding height'
-    + ',create a smooth edge, and sometimes to create decorative surface stiches.'
+    productContentDescription: 'This item can be simple and difficult to make depending on what keychain you are making.'
+    +'The keychain can be flowers to a stuff animal. It should be very quick to make, probably under 40 minutes.'
+    + 'These items are perfect has a gift or has party favor.'
 }
 
 export const beanieImg = {
