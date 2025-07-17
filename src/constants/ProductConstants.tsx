@@ -57,34 +57,36 @@ export const keyChain = {
 export const beanieImg = {
     imageSrc: Beanie,
     productContentTitle: 'Beanie',
-    productContentDescription: 'This stitch creates a fan-like or scalloped texture. It is made by working multiple' 
-    + 'stitches into the same stitch or space, usually double crochets. ' 
+    productContentDescription: 'This item is great for gifts because there is many different ways to make it.' 
+    + 'This product can be harder to make because the shape is not flat, so it may take time to get used the new stitches.'
+    + 'You can work with many types of yarns for example wool and cotton. '
 }
 
 export const Plantholders = {
     imageSrc: PlantHolders,
     productContentTitle: 'Plant Holders',
-    productContentDescription: 'This stitch is one of the most basic stitches. It create a tight, dense fabric. ' 
-    + 'To make a single crochet you have insert your hook into the next stitch. Then yarn over(wrap the yarn over the hook).'
-    + 'Then pull through the stitch(you will now have 2 loops on your hook). Lastly, yarn over again, and pull through both loops on the hook.'
+    productContentDescription: 'This item is perfect for small pots because you can display them. This is a beginner friendly project,'
+    + ' where you use chains and basic stitches to make the cord the secures the pot. Also, this project is customizable because you can make any size'
+    + ' you want.'
 }
 export const GlovesImg = {
     imageSrc: Gloves,
     productContentTitle: 'Gloves',
-    productContentDescription: 'This stitch creates a "V" shape across your fabric. It is usually a double crochet, chain one, and then another crochet. '
-    + 'All worked into the same stitch or space.'
+    productContentDescription: 'This item is wearable and keep your hands warm and cozy. There is different ways to make them, you can make them fingerless or full-fingered.'
+    + 'This is a great project for intermediate beginnners and up because there is different parts that need to be assembled. '
 }
 export const Tablerunner = {
     imageSrc: TableRunner,
     productContentTitle: 'Table Runner',
-    productContentDescription: 'This stitch creates a "V" shape across your fabric. It is usually a double crochet, chain one, and then another crochet. '
-    + 'All worked into the same stitch or space.'
+    productContentDescription: 'This item is a narrow piece of crochet that is placed at the center of a dining or coffee table.'
+    + 'It is perfect item to add beauty while protecting your table surface. This is perfect for beginners becasue it like making a blanket but with thinner yarn.'
 }
 export const cardign = {
     imageSrc: Cardign,
     productContentTitle: 'Cardign ',
-    productContentDescription: 'This stitch creates a "V" shape across your fabric. It is usually a double crochet, chain one, and then another crochet. '
-    + 'All worked into the same stitch or space.'
+    productContentDescription: 'This item is for advance level crocheters because there is many components that need to added in.'
+    + ' Also you have to measure whoever is wearing the clothing. This project is perfect for the spring and fall. Also there is many'
+    + ' ways to make it. For example, you can do basic rectangle, granny square, lace/mesh cardigan, and much more.'
 }
 
     
