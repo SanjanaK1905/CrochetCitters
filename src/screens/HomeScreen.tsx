@@ -10,7 +10,7 @@ function HomeScreen() {
                 <h1>CROCHET</h1>
                 <h2>CRITTERS</h2>
                 <p>Create what your heart desires.</p>
-                <button className = "main_btn"><a href="/">Get Started</a></button>
+                <button className = "main_btn"><a href="/tech">Get Started</a></button>
             </div>
             <div className="main_img--container">
                 <img src={HotairBalloon} alt="Hot air balloon" />

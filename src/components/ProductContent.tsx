@@ -11,7 +11,7 @@ function ProductContent(props: ProductContentProps) {
 
   return (
      <div className="product_content_container">
-      <img src={imageSrc} className="product_image" />
+      <img src={imageSrc} alt={productContentTitle} className="product_image" />
       <div className = "product_description_container">
          <h2 className="product_description_text">{productContentTitle}</h2>
          <p>{productContentDescription}</p>

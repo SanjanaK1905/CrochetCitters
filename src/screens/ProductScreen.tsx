@@ -1,9 +1,10 @@
 import './ProductScreen.css'
 import ProductContent from '../components/ProductContent'
-import {bookMarkPattern, CoastersCrochet, ToteCrochet,BlanketImg, keyChain,beanieImg,Plantholders,GlovesImg,Tablerunner,cardign} from '../constants/ProductConstants'
+import {bookMarkPattern, CoastersCrochet, ToteCrochet,BlanketImg,keyChain,beanieImg,Plantholders,GlovesImg,Tablerunner,cardign} from '../constants/ProductConstants'
 
 
 function ProductScreen() {
+
 
     return (
         <div className="product_screen ">
@@ -12,7 +13,7 @@ function ProductScreen() {
             </div>
             <div className="product_parent_content_container">
                 <ProductContent
-                    imageSrc={bookMarkPattern.imageSrc}
+                    imageSrc={bookMarkPattern.imageSrc} 
                     productContentTitle={bookMarkPattern.productContentTitle}
                     productContentDescription={bookMarkPattern.productContentDescription}
                 />

@@ -11,7 +11,7 @@ function PatternContent(props: PatternContentProps) {
 
   return (
      <div className="pattern_content_container">
-      <img src={imageSrc} className="pattern_image" />
+        <img src={imageSrc} alt={patternContentTitle} className="pattern_image" />
       <div className = "pattern_description_container">
          <h2 className="pattern_description_text">{patternContentTitle}</h2>
          <p>{patternContentDescription}</p>
