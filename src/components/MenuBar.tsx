@@ -18,9 +18,6 @@ function MenuBar() {
             <li className = "navbar_item">
                 <Link to="/products" className="navbar_links"> Product </Link>
             </li>
-            <li className = "navbar_btn">
-                <Link to="/" className="button"> Sign Up </Link>
-            </li>
         </ul>
     </div>
   )
