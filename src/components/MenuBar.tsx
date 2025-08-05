@@ -5,7 +5,7 @@ function MenuBar() {
 
   return (
     <div className="navbar_container">
-        <a href="/" id="navbar_logo">CROCHET CLUB</a> 
+        <Link to="/" id="navbar_logo">CROCHET CLUB</Link> 
         <ul className = "navbar_menu">
             <li className = "navbar_item">
                 <Link to="/" className="navbar_links"> Home </Link>

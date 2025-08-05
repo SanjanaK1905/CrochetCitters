@@ -1,4 +1,5 @@
 import './HomeScreen.css'
+import { Link } from 'react-router-dom'
 import HotairBalloon from '../assets/HotairBalloon.svg';
 
 function HomeScreen() {
@@ -10,7 +11,7 @@ function HomeScreen() {
                 <h1>CROCHET</h1>
                 <h2>CRITTERS</h2>
                 <p>Create what your heart desires.</p>
-                <button className = "main_btn"><a href="/tech">Get Started</a></button>
+                <button className = "main_btn"><Link to="/tech">Get Started</Link></button>
             </div>
             <div className="main_img--container">
                 <img src={HotairBalloon} alt="Hot air balloon" />

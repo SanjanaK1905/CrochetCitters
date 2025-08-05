@@ -8,7 +8,7 @@ import ProductScreen from './screens/ProductScreen'
 function App() {
 
   return (
-    <Router>
+    <Router basename="/CrochetCitters">
     <div className="app-wrapper">
       <MenuBar/>
       <Routes>
